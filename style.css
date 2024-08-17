@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    display: flex;
+    background-color:  #FFCD9E;
+    height: 412px;
+    
+
+}
+
+header {
+    width: 100%;
+
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    line-height: 54px;
+    width: 562px; 
+    height: 108px; 
+    margin-top: 42px; 
+    margin-left: 150px;
+   
+
+}
+
+header p {
+    font-size: 17px;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 70px; 
+    margin-left: 150px; 
+    
+
+
+}
+
+header h3{
+    font-size: 20px;
+    height: 44px;
+    color: #282828;
+    width: 227px;
+   margin-left: 150px;
+
+
+}
+.form-wrapper {
+    display: flex;
+   
+}
+
+.email-container {
+    margin-right: 12px; 
+    margin-left: 150px;
+}
+
+.email-container input {
+    padding: 7px 12px 7px 12px;
+    border: 3px solid #000000;
+    border-radius: 8px; 
+    font-size: 15px;
+    font-weight: 600;
+    width: 300px;
+    height: 42px;
+}
+
+.button-container button {
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #282828;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    width: 180px;
+    height: 42px;
+    align-items: center;
+}
+
+
+
+
+
+ 
+.info-text {
+    font-size: 16px;
+    color: #ffffff; 
+   margin-top: 15px;
+   margin-left: 186px;
+}
+
+.illustration img {
+height:420px ;
+width: 420px;
+margin-right: 100px;
+
+}
+
+footer {
+   
+    background-color: #282828;
+    color: white;
+    padding: 20px 50px;
+}
+
+.footer-content {
+    margin-left:150px ;
+    margin-right: 150px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer-content div p {
+    margin-bottom: 10px;
+}
+
+.social-icons a img {
+    width: 24px;
+    margin-right: 10px;
+    margin-bottom: 35px;
+}
+
